@@ -1,0 +1,11 @@
+<i class="fa cart"></i>
+<div *ngIf="shoppingCart">
+
+
+    <ul>
+        <li *ngFor="let shoppingCartItem of shoppingCartItems" [attr.data-id]="shoppingCartItem.id">
+                <app-shopping-cart-item [shoppingCartItem]="shoppingCartItem" ></app-shopping-cart-item>
+        </li>
+    </ul>
+</div>
+

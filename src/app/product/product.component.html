@@ -1,0 +1,16 @@
+
+<div>
+    <select #cbProductCategory (change)="product_change($event)">
+        <option></option>
+        <option *ngFor="let productCategory of productCategories"  [attr.id]="productCategory.id">{{productCategory.name}}</option>
+    </select>
+    <select #cbProduct>
+        <option></option>
+        <option *ngFor="let product of products"  [attr.id]="product.id" [attr.data-price]="product.price">{{product.name}}</option>
+    </select>
+    
+</div>
+<div>
+    <input type="button" (click)="btnAddToCart()" value="Add To Cart" />
+    
+</div>
