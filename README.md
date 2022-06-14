@@ -1,1 +1,3 @@
-# ndCloneTest
+
+<html>
+<body class="c4"><p class="c3"><span class="c1">MDClone Project</span></p><p class="c0"><span class="c1"></span></p><p class="c3"><span class="c5">Built With:</span></p><p class="c3"><span class="c1">Angular 13.</span></p><p class="c0"><span class="c1"></span></p><p class="c3"><span class="c5">Prerequisites:</span></p><p class="c3"><span class="c1">install NPM:</span></p><p class="c3"><span class="c2">npm install npm@latest -g</span></p><p class="c3"><span class="c1">install Angular:</span></p><p class="c3"><span class="c2">npm install -g @angular/cli</span></p><p class="c0"><span class="c1"></span></p></body></html>
